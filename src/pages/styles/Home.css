@@ -17,8 +17,11 @@
   align-items: center;
 }
 
-@media screen and (min-width: 768px) {
-  .Home__col {
-    align-items: flex-start;
-  }
+.Home__col-description{
+  font-size: 2rem;
+  align-items: flex-end;
+}
+
+.Home__col-img{
+  align-items: flex-start;
 }

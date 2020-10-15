@@ -1,7 +1,14 @@
-import React from 'react';
+import React from 'react'
 
-function NotFound() {
-  return <h1>404: Not Found</h1>;
+import PageError from '../components/PageError'
+import './styles/NotFound.css'
+
+function NotFound(props){
+    return (
+        <React.Fragment>
+            <PageError imageUrl="https://static.platzi.com/static/images/error/img404.png" message="No encontramos lo que buscabas."/>
+        </React.Fragment>
+    )
 }
 
-export default NotFound;
+export default NotFound
